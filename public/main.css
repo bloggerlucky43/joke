@@ -1,0 +1,106 @@
+/* General body styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    /* Use a clean, modern font */
+    background-color: #f4f4f4;
+    /* Light gray background */
+    color: #333;
+    /* Dark gray text */
+    text-align: center;
+    /* Center text */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2.5em;
+    /* Large heading */
+    margin-bottom: 20px;
+    /* Space below the heading */
+    color: #4a90e2;
+    /* Bright blue color */
+}
+
+/* Response area styles */
+.response-area {
+    background-color: #fff;
+    /* White background for the joke */
+    padding: 20px;
+    /* Padding around the joke */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    margin: 20px auto;
+    /* Centered with margin */
+    max-width: 600px;
+    /* Max width for the response area */
+}
+
+/* Joke text styles */
+#setup {
+    font-size: 1.8em;
+    /* Larger font for setup */
+    margin-bottom: 10px;
+    /* Space below the setup */
+}
+
+#delivery {
+    font-size: 1.5em;
+    /* Slightly smaller for delivery */
+    color: #f39c12;
+    /* Orange color for delivery */
+}
+
+/* Button styles */
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 20px;
+    /* Space above the button */
+}
+
+/* Button hover effects */
+button:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+    transform: scale(1.05);
+    /* Slightly increase size */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+        /* Reduced padding on smaller screens */
+    }
+
+    h1 {
+        font-size: 2em;
+        /* Smaller heading on mobile */
+    }
+
+    #setup {
+        font-size: 1.5em;
+        /* Smaller setup text on mobile */
+    }
+
+    #delivery {
+        font-size: 1.2em;
+        /* Smaller delivery text on mobile */
+    }
+
+    button {
+        width: 100%;
+        /* Full width button on mobile */
+        font-size: 1em;
+        /* Smaller button text on mobile */
+    }
+}

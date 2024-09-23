@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Generator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <% if (locals.content) { %>
+        <div class="response-area">
+            <p id="setup">
+                <%= locals.content.setup %>
+            </p>
+            <p id="delivery"><%= locals.content.delivery %></p>
+        </div>
+        <% }else{%>
+            <h1>Joke of the Day</h1>
+    
+            <% } %>
+    <button type="submit" id="noAuth" onclick="window.location.href='/noAuth'">Get New Joke</button>
+
+ 
+</body>
+
+</html>
